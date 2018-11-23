@@ -1,0 +1,53 @@
+body {
+	background-image: url(../imgs/back.gif);
+	background-repeat:no-repeat;
+    background-size:cover;
+	color: #313e86;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	scrollbar-base-color: aquamarine;
+}
+
+div {
+	max-width: 200px;
+	max-height: 600px;
+	margin: 0 auto;
+	color: #3d5a59;
+}
+
+#trabajos {
+	position: relative;
+	float: left;
+	border: maroon 1px solid;
+	height: 35%;
+	width: 45%;
+	max-height: 35%;
+	max-width: 45%;
+	margin: 15px;
+}
+
+#trabajosImg {
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#contacto {
+	position: relative;
+	float: right;
+	border: maroon 1px solid;
+	height: 35%;
+	width: 45%;
+	max-height: 35%;
+	max-width: 45%;
+	margin: 15px;
+}
+
+#contactoImg {
+	height: 100%;
+	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+}
