@@ -1,0 +1,223 @@
+@media only screen and (min-width: 720px) and (min-height: 576px) {
+    body {
+        background-image: url(../imgs/back.gif);
+        background-repeat:no-repeat;
+        background-size:cover;
+        color: #313e86;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        scrollbar-base-color: aquamarine;
+    }
+
+    div {
+        max-width: 200px;
+        max-height: 600px;
+        margin: 0 auto;
+        color: #3d5a59;
+    }
+
+    #trabajos {
+        position: relative;
+        float: left;
+        border: maroon 1px solid;
+        border-radius: 50px;
+        height: 65%;
+        width: 45%;
+        max-height: 65%;
+        max-width: 45%;
+        margin: 15px;
+    }
+
+    #trabajosImg {
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #contacto {
+        position: relative;
+        float: right;
+        border: maroon 1px solid;
+        border-radius: 50px;
+        height: 65%;
+        width: 45%;
+        max-height: 65%;
+        max-width: 45%;
+        margin: 15px;
+    }
+
+    #contactoImg {
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: navy;
+        text-align: center;
+    }
+
+    #divFot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #buttonWork {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: goldenrod;
+    }
+
+    #buttonWork:hover {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: yellowgreen;
+    }
+
+    #logoA {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    #logo {
+        max-width: 25px;
+        width: 25px;
+        max-height: 25px;
+        height: 25px;
+    }
+
+    #buttonContact {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: goldenrod;
+    }
+
+    #buttonContact:hover {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: yellowgreen;
+    }
+}
+
+@media only screen and (min-width: 20px) and (min-height: 20px) and (max-width: 720px) and (max-height: 576px) {
+    body {
+        background-image: url(../imgs/back2.gif);
+        background-repeat:no-repeat;
+        background-size:cover;
+        color: #313e86;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        scrollbar-base-color: aquamarine;
+    }
+
+    div {
+        max-width: 200px;
+        max-height: 600px;
+        margin: 0 auto;
+        color: #3d5a59;
+    }
+
+    #trabajos {
+        position: relative;
+        float: left;
+        border: maroon 1px solid;
+        border-radius: 50px;
+        height: 65%;
+        width: 45%;
+        max-height: 65%;
+        max-width: 45%;
+        margin: 15px;
+    }
+
+    #trabajosImg {
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    #contacto {
+        position: relative;
+        float: right;
+        border: maroon 1px solid;
+        border-radius: 50px;
+        height: 65%;
+        width: 45%;
+        max-height: 65%;
+        max-width: 45%;
+        margin: 15px;
+    }
+
+    #contactoImg {
+        border-radius: 50px;
+        height: 100%;
+        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: navy;
+        text-align: center;
+    }
+
+    #divFot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #buttonWork {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: goldenrod;
+    }
+
+    #buttonWork:hover {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: yellowgreen;
+    }
+
+    #logoA {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    
+    #logo {
+        max-width: 25px;
+        width: 25px;
+        max-height: 25px;
+        height: 25px;
+    }
+
+    #buttonContact {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: goldenrod;
+    }
+
+    #buttonContact:hover {
+        font-size: 24px;
+        border-radius: 50px;
+        background-color: yellowgreen;
+    }
+}
