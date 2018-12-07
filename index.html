@@ -2,31 +2,31 @@
 <header>
 	<title>Ramón Moreno</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/static.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </header>
 <body>
     <br/>
     <h1>Ramón Moreno's Portfolium</h1>
     <br/>
 	<div id="trabajos">
-		<a href="works.html">
-			<img id="trabajosImg" alt="Trabajos" src="imgs/trabajos.jpg"/>
+		<a href="works/works.html">
+			<img id="trabajosImg" alt="Trabajos" src="imgs/inici/trabajos.jpg"/>
 		</a>
 	</div>
 
 	<div id="contacto">
-		<a href="contact.html">
-			<img id="contactoImg" alt="Contacto" src="imgs/contacto.jpeg"/>
+		<a href="contact/contact.html">
+			<img id="contactoImg" alt="Contacto" src="imgs/inici/contacto.jpeg"/>
 		</a>
     </div>
     
     <footer>
         <div id="divFot">
-            <input id="buttonWork" type="button" name="bWorks" value="Trabajos"/>
+            <input id="buttonWork" type="button" name="bWorks" onclick="window.location.href = 'works/works.html'" value="Trabajos"/>
             <a id="logoA" href="index.html">
                 <img id="logo" src="imgs/logo.png" alt="My Logo"/>
             </a>
-            <input id="buttonContact" type="button" name="cWorks" value="Contacto"/>
+            <input id="buttonContact" type="button" name="cWorks" onclick="window.location.href = 'contact/contact.html'" value="Contacto"/>
         </div>
     </footer>
 
