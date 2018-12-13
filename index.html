@@ -1,8 +1,11 @@
 <html>
 <header>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Ramón Moreno</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/static.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" media="screen and (min-width:600px)" href="css/browser.css" />
+	<link rel="stylesheet" media="screen and (max-width:600px)" href="css/moblie.css" />
 </header>
 <body>
     <br/>
@@ -21,14 +24,30 @@
     </div>
     
     <footer>
-        <div id="divFot">
-            <input id="buttonWork" type="button" name="bWorks" value="Trabajos"/>
-            <a id="logoA" href="index.html">
-                <img id="logo" src="imgs/logo.png" alt="My Logo"/>
-            </a>
-            <input id="buttonContact" type="button" name="cWorks" value="Contacto"/>
-        </div>
-    </footer>
+		<div id="divFotL">
+			<a href="#">
+				<img id="social" src="imgs/facebook.png">
+			</a>
+			<a href="#">
+				<img id="social" src="imgs/twitter.png">
+			</a>
+		</div>
+		<div id="divFot">
+			<input id="buttonWork" type="button" onclick="window.location='works.html';" name="bWorks" value="Trabajos"/>
+			<a id="logoA" href="index.html">
+				<img id="logo" src="imgs/logo.png" alt="My Logo"/>
+			</a>
+			<input id="buttonContact" type="button" onclick="window.location='contact.html';" name="cWorks" value="Contacto"/>
+		</div>
+		<div id="divFotR">
+			<a href="#">
+				<img id="social" src="imgs/instagram.png">
+			</a>
+			<a href="#">
+				<img id="social" src="imgs/linkedin.png">
+			</a>
+		</div>
+	</footer>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129359029-1"></script>
